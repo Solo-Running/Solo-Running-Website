@@ -2,7 +2,7 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  output: 'export', // this will create and out folder for the application
+  // output: 'export', // this will create and out folder for the application
 };
 
 export default nextConfig;

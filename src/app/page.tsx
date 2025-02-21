@@ -3,8 +3,7 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
+  CarouselDots
 } from "@/components/ui/carousel"
 
 
@@ -49,6 +48,7 @@ export default function Home() {
 
         {/* Responsive preview to show app screen mockups */}
         <CarouselView />
+
         <StaggeredView />
 
         {/* Pricing section*/}
@@ -276,14 +276,17 @@ function CarouselView() {
               </div>
             </div>
 
-            <div className="max-w-sm flex flex-col gap-2 text-center">
+            <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
               <h2 className="text-white text-2xl font-semibold">Manage your profile</h2>
               <p className="text-light-grey max-w-sm">Switch things up by editing pins or updating your map themes. And don`&apos;`t worry, your profile data is never shared with anyone.</p>
             </div>
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
+
+
+        <CarouselDots className="mt-6"/>
+        {/* <CarouselPrevious />
+        <CarouselNext /> */}
       </Carousel>
     </section>
   )
