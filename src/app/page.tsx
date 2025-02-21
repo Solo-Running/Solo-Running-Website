@@ -10,7 +10,7 @@ import {
 export default function Home() {
   return (
     <div>
-      <main className="flex flex-col gap-40 justify-center items-center mx-8 lg:mx-auto">
+      <main className="flex flex-col gap-40 justify-center items-center mx-[24px] lg:mx-auto">
 
         {/* Hero section */}
         <section className="flex flex-col py-24 mx-auto justify-center">
@@ -81,7 +81,7 @@ export default function Home() {
             <div>
               <h3 className="text-white text-xl font-semibold" >1. What information do we collect?</h3>
               <p className="text-light-grey max-w-3xl">
-                This app integrates Apple`&apos;`s built-in software to track your location while running and device sensors to record physical activity. These require
+                This app integrates Apple&apos;s built-in software to track your location while running and device sensors to record physical activity. These require
                 user permissions prior to using the app. Data is securely synced to your iCloud storage by default.
               </p>
             </div>
@@ -182,7 +182,7 @@ function StaggeredView() {
 
         <div className="w-[400px] flex flex-col gap-2">
           <h2 className="text-white text-2xl font-semibold">Manage your profile</h2>
-          <p className="text-light-grey max-w-xs">Switch things up by editing pins or updating your map themes. And don`&apos;`t worry, your profile data is never shared with anyone.</p>
+          <p className="text-light-grey max-w-xs">Switch things up by editing pins or updating your map themes. And don&apos;t worry, your profile data is never shared with anyone.</p>
         </div>
 
       </div>
@@ -278,7 +278,7 @@ function CarouselView() {
 
             <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
               <h2 className="text-white text-2xl font-semibold">Manage your profile</h2>
-              <p className="text-light-grey max-w-sm">Switch things up by editing pins or updating your map themes. And don`&apos;`t worry, your profile data is never shared with anyone.</p>
+              <p className="text-light-grey max-w-sm">Switch things up by editing pins or updating your map themes. And don &apos;t worry, your profile data is never shared with anyone.</p>
             </div>
           </CarouselItem>
         </CarouselContent>
