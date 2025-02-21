@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --light-grey: #868686;
+  --dark-grey: #1e1e1e;
+  --moss-green: #7AC22D;
+  --lime-green: #C2FF6D;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+  }
+}
