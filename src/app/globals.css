@@ -9,12 +9,9 @@
   --lime-green: #C2FF6D;
 }
 
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
 @layer base {
   :root {
     --radius: 0.5rem;
+    --font-instrument-sans: "Instrument Sans", sans-serif;
   }
 }
