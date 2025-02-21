@@ -24,7 +24,7 @@ export default function Home() {
             />
           </div>
 
-          <p className="text-light-grey text-lg max-w-[380px] lg:text-xl lg:max-w-[480px] mx-auto text-center py-4">
+          <p className="text-light-grey text-base md:text-lg max-w-[300px] lg:text-xl lg:max-w-[480px] mx-auto text-center py-4">
             The minimalist running app  for anyone. Just pay as you go for a low price. Cancel anytime.
           </p>
 
@@ -35,7 +35,7 @@ export default function Home() {
        
 
 
-          <div className="w-[383px] h-[671px] mx-auto py-8">
+          <div className="w-[300px] h-[591px] lg:w-[383px] lg:h-[671px] mx-auto py-8">
             <Image
               className="dark:invert"
               src="/Dashboard_Mockup.png"
@@ -194,7 +194,7 @@ function CarouselView() {
   return (
     <section id="carouselAppMockups" className="block lg:hidden">
 
-      <Carousel className="w-full max-w-sm mx-8">
+      <Carousel className="w-full max-w-xs md:max-w-md mx-8">
         <CarouselContent>
 
           {/* Add Run Preview */}
@@ -211,9 +211,9 @@ function CarouselView() {
                 />
               </div>
 
-              <div className="max-w-sm flex flex-col gap-2 text-center">
-                <h2 className="text-white text-2xl font-semibold mx-auto">Real Time Location Tracking</h2>
-                <p className="text-light-grey max-w-xs mx-auto">Use the power of Apple MapKit and Location Services to view your route and position.</p>
+              <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
+                <h2 className="text-white text-2xl font-semibold">Real Time Location Tracking</h2>
+                <p className="text-light-grey max-w-xs">Use the power of Apple MapKit and Location Services to view your route and position.</p>
               </div>
             </div>
           </CarouselItem>
@@ -233,9 +233,9 @@ function CarouselView() {
                 />
               </div>
 
-              <div className="max-w-sm flex flex-col gap-2 text-center">
-                <h2 className="text-white text-2xl font-semibold mx-auto">Create Custom Pins</h2>
-                <p className="text-light-grey max-w-xs mx-auto">Feeling adventurous? Use a drag and drop pin to add your own locations on the map.</p>
+              <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
+                <h2 className="text-white text-2xl font-semibold">Create Custom Pins</h2>
+                <p className="text-light-grey max-w-xs">Feeling adventurous? Use a drag and drop pin to add your own locations on the map.</p>
               </div>
             </div>
           </CarouselItem>
@@ -255,9 +255,9 @@ function CarouselView() {
               </div>
             </div>
 
-            <div className="max-w-sm flex flex-col gap-2 text-center">
-              <h2 className="text-white text-2xl font-semibold mx-auto">Track Your Run History</h2>
-              <p className="text-light-grey max-w-sm mx-auto">Every run is saved automatically in an organized list and appears in your dashboard as a preview.</p>
+            <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
+              <h2 className="text-white text-2xl font-semibold">Track Your Run History</h2>
+              <p className="text-light-grey max-w-sm">Every run is saved automatically in an organized list and appears in your dashboard as a preview.</p>
             </div>
           </CarouselItem>
 
@@ -277,8 +277,8 @@ function CarouselView() {
             </div>
 
             <div className="max-w-sm flex flex-col gap-2 text-center">
-              <h2 className="text-white text-2xl font-semibold mx-auto">Manage your profile</h2>
-              <p className="text-light-grey max-w-sm mx-auto">Switch things up by editing pins or updating your map themes. And don`&apos;`t worry, your profile data is never shared with anyone.</p>
+              <h2 className="text-white text-2xl font-semibold">Manage your profile</h2>
+              <p className="text-light-grey max-w-sm">Switch things up by editing pins or updating your map themes. And don`&apos;`t worry, your profile data is never shared with anyone.</p>
             </div>
           </CarouselItem>
         </CarouselContent>
