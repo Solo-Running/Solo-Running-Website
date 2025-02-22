@@ -24,7 +24,7 @@ export default function Home() {
           </div>
 
           <p className="text-light-grey text-base md:text-lg max-w-[300px] lg:text-xl lg:max-w-[480px] mx-auto text-center py-4">
-            The minimalist running app  for anyone. Just pay as you go for a low price. Cancel anytime.
+            The minimalist running app for anyone. Just pay as you go for a low price. Cancel anytime.
           </p>
 
           <span className="flex gap-4 w-fit mx-auto">
@@ -57,7 +57,7 @@ export default function Home() {
           <p className="text-light-grey mt-2">
             In order to use the app, users can choose from two  subscription plans - yearly or monthly. 
             Purchases are automatically tracked by your App Store account. 
-            If you have any issues, you can always send a refund request to Apple or cancel your plan directly within the app.
+            If you have any issues, you can always send a refund request to Apple or change your plan directly within the app.
           </p>
 
           <div className="grid grid-cols-2 gap-4 mt-8 max-w-[400px]">
@@ -278,7 +278,7 @@ function CarouselView() {
 
             <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
               <h2 className="text-white text-2xl font-semibold">Manage your profile</h2>
-              <p className="text-light-grey max-w-sm">Switch things up by editing pins or updating your map themes. And don &apos;t worry, your profile data is never shared with anyone.</p>
+              <p className="text-light-grey max-w-sm">Switch things up by editing pins or updating your map themes. And don&apos;t worry, your profile data is never shared with anyone.</p>
             </div>
           </CarouselItem>
         </CarouselContent>
