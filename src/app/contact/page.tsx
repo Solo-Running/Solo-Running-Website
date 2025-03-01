@@ -13,11 +13,16 @@ export default function ContactPage() {
 
             <section id="socials" className="flex flex-col gap-8 justify-center mx-auto">
                 <div className="bg-dark-grey rounded-xl p-8 mx-auto">
-                    <FaLinkedin size={54} color="white" className="hover:cursor-pointer" href=""/>
+                    <a href="https://www.linkedin.com/in/william-anthony-kim/" target="_blank">
+                        <FaLinkedin size={54} color="white" className="hover:cursor-pointer"/>
+                    </a>
+                    
                 </div>  
 
                 <div className="bg-dark-grey rounded-xl p-8 mx-auto">
-                    <FaGithub size={54} color="white" className="hover:cursor-pointer" href=""/>
+                    <a href="https://github.com/will-loves-coding82" target="_blank">
+                        <FaGithub size={54} color="white" className="hover:cursor-pointer"/>
+                    </a>
                 </div>  
             </section>
         </div>
