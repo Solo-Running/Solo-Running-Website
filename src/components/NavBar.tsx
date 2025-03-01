@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import {usePathname } from "next/navigation";
 import { useState } from 'react';
-import { IoIosArrowDown, IoIosArrowDropup, IoIosArrowUp } from 'react-icons/io';
+import { IoIosArrowDown} from 'react-icons/io';
 
 
 export default function NavBar() {
