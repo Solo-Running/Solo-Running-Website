@@ -11,7 +11,7 @@ export default function NavBar() {
     const [isToggled, setIsToggled] = useState(false);
 
     return (
-        <nav id="navBar" className="sticky top-0 z-50 flex flex-row h-[72px] bg-black/70 backdrop-blur-lg items-center">
+        <nav id="navBar" className="sticky top-0 z-50 flex flex-row h-[72px] bg-black items-center">
 
         {/* Navbar Content */}
         <div className="flex justify-end md:justify-center items-center p-4 w-full md:max-w-md mx-auto">
@@ -42,7 +42,7 @@ export default function NavBar() {
   
         {/* Mobile Dropdown Menu */}
         <div
-          className={`md:hidden absolute top-full left-0 right-0 bg-black/70 backdrop-blur-lg  overflow-hidden transition-all duration-300 ease-in-out flex flex-col gap-6 items-center justify-center  
+          className={`md:hidden absolute top-full left-0 right-0 bg-black overflow-hidden transition-all duration-300 ease-in-out flex flex-col gap-6 items-center justify-center  
             ${isToggled ? "max-h-screen opacity-100" : "max-h-0 opacity-0" } 
             ${isToggled ? "h-[220px]" : "h-[72px]"}` }
         >
