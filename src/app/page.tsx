@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex flex-col gap-40 justify-center items-center mx-[24px] lg:mx-auto">
 
         {/* Hero section */}
-        <section className="flex flex-col py-24 mx-auto justify-center">
+        <section className="flex flex-col py-12 lg:py-24  mx-auto justify-center">
           <div className="w-[200px] lg:w-fit mx-auto">
             <Image
               src="/SOLO.svg"

@@ -3,7 +3,7 @@
 export default function AboutPage() {
     return (
         <div className="flex flex-col justify-center">
-            <section className="mx-[24px] lg:mx-auto py-24">
+            <section className="mx-[24px] lg:mx-auto py-12 lg:py-24 ">
                 <h1 className="text-white text-5xl text-center font-black">About</h1>
 
                 <p className="text-light-grey max-w-lg mt-8 mx-auto">
