@@ -13,5 +13,26 @@
   :root {
     --radius: 0.5rem;
     --font-instrument-sans: "Instrument Sans", sans-serif;
+    --rotate-clockwise: rotate-clockwise 0.3s ease-in-out forwards;
+    --rotate-counter-clockwise: rotate-counter-clockwise 0.3s ease-in-out forwards;
+
+  }
+}
+
+@keyframes rotate-clockwise {
+  from {
+    transform: none
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+@keyframes rotate-counter-clockwise {
+  from {
+    transform: none
+  }
+  to {
+    transform: rotate(-180deg);
   }
 }
