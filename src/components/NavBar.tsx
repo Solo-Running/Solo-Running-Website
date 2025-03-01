@@ -11,8 +11,8 @@ export default function NavBar() {
     const [isToggled, setIsToggled] = useState(false);
 
     return (
-        <nav id="navbar" className={`sticky top-0 bg-black/70 backdrop-blur-lg transition-all duration-300 z-100`}>
-        
+        <nav id="navBar" className="sticky top-0 z-50 flex flex-row h-[72px] bg-black/70 backdrop-blur-lg items-center">
+
         {/* Navbar Content */}
         <div className="flex justify-end md:justify-center items-center p-4 w-full md:max-w-md mx-auto">
           {/* Regular Menu */}
