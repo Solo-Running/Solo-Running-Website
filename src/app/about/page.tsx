@@ -16,7 +16,7 @@ export default function AboutPage() {
                     I chose the name because of the individualistic nature of the app and also my work process - just a single developer.   
                     <br/>
                     <br/>
-                    While progress moved at a snail’s pace initially, I quickly learned how to get around many of the technical problems I faced, 
+                    While progress moved at a snail&apos;s pace initially, I quickly learned how to get around many of the technical problems I faced, 
                     such as generating route snapshots, saving custom pins, and displaying weekly run statistics. 
                     The biggest challenge, though, was making sure that the user experience was mostly smooth and predictable. 
                     I probably went through dozens of iterations and manual testing before I settled on my final designs. 
