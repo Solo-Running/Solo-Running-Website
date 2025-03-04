@@ -24,7 +24,7 @@ export default function Home() {
           </div>
 
           <p className="text-light-grey text-base md:text-lg max-w-[300px] lg:text-xl lg:max-w-[480px] mx-auto text-center py-4">
-            The minimalist running app for anyone. Just pay as you go for a low price. Cancel anytime.
+            The minimalist running app for anyone. Start today with a basic free plan. Upgrade and cancel anytime.
           </p>
 
           <span className="flex gap-4 w-fit mx-auto">
@@ -55,9 +55,10 @@ export default function Home() {
         <section id="pricing" className="bg-dark-grey w-full max-w-[800px] p-8 lg:my-12 rounded-2xl">
           <h2 className="text-white text-2xl font-semibold">Pricing</h2>
           <p className="text-light-grey mt-2">
-            In order to use the app, users can choose from two  subscription plans - yearly or monthly. 
-            Purchases are automatically tracked by your App Store account. 
-            If you have any issues, you can always send a refund request to Apple or change your plan directly within the app.
+            Solo Running is a free app but comes with in-app purchases for unlimited access. Users without a Pro Plan receive 
+            up to 16 runs per month and 8 total custom pins. When you want to upgrade, you can choose from two subscriptions - yearly or monthly. 
+            Purchases are automatically tracked by your App Store account.  If you have any issues, you can always send a refund request to Apple or
+            change your plan directly within the app. 
           </p>
 
           <div className="grid grid-cols-2 gap-4 mt-8 max-w-[400px]">
@@ -81,8 +82,8 @@ export default function Home() {
             <div>
               <h3 className="text-white text-xl font-semibold" >1. What information do we collect?</h3>
               <p className="text-light-grey max-w-3xl">
-                This app integrates Apple&apos;s built-in software to track your location while running and device sensors to record physical activity. These require
-                user permissions prior to using the app. Data is securely synced to your iCloud storage by default.
+                We do not collect or store information that can be use to publicly trace your identity. This app does integrate Apple&apos;s built-in software to track your location while running and device sensors to record physical activity. These require
+                user permissions prior to using the app. All data is securely synced to your iCloud storage by default.
               </p>
             </div>
             
