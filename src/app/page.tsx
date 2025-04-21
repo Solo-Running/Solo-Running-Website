@@ -56,7 +56,7 @@ export default function Home() {
           <h2 className="text-white text-2xl font-semibold">Pricing</h2>
           <p className="text-light-grey mt-2">
             Solo Running is a free app but comes with in-app purchases for unlimited access. Users without a Pro Plan receive 
-            up to 16 runs per month and 8 total custom pins. When you want to upgrade, you can choose from two subscriptions - yearly or monthly. 
+            up to 8 runs per month and 5 total custom pins. When you want to upgrade, you can choose from two subscriptions - yearly or monthly. 
             Purchases are automatically tracked by your App Store account.  If you have any issues, you can always send a refund request to Apple or
             change your plan directly within the app. 
           </p>
