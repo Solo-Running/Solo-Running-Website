@@ -5,7 +5,6 @@ import {
   CarouselItem,
   CarouselDots
 } from "@/components/ui/carousel"
-import { Button } from "@/components/ui/button";
 
 
 export default function Home() {
