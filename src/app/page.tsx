@@ -5,6 +5,7 @@ import {
   CarouselItem,
   CarouselDots
 } from "@/components/ui/carousel"
+import { Button } from "@/components/ui/button";
 
 
 export default function Home() {
@@ -34,17 +35,29 @@ export default function Home() {
        
 
 
-          <div className="w-[300px] h-[591px] lg:w-[383px] lg:h-[671px] mx-auto py-8">
+          <div className="max-w-[300px] mx-auto py-8">
             <Image
               className="dark:invert"
-              src="/Dashboard_Mockup.png"
+              src="/Dashboard.png"
               alt="dashboard mockup"
               width={585}
               height={1077}
               priority
             />
           </div>
+
+          <div className="mx-auto mt-20 hover:pointer">
+            <a href="https://apps.apple.com/us/app/solo-running/id6742040879">
+              <Image
+              src="/DownloadButton.svg"
+              alt="dashboard mockup"
+              width={130}
+              height={40}
+            />
+          </a>
+          </div>
         </section>
+
 
         {/* Responsive preview to show app screen mockups */}
         <CarouselView />
@@ -120,7 +133,7 @@ function StaggeredView() {
         <div className="w-[243px] h-[531px] lg:w-[283px] lg:h-[571px]">
           <Image
             className="dark:invert rounded-3xl border border-2 border-dark-grey"
-            src="/Add_Run.png"
+            src="/AddRun.png"
             alt="add run mockup"
             width={585}
             height={1077}
@@ -138,7 +151,7 @@ function StaggeredView() {
         <div className="w-[243px] h-[531px] lg:w-[283px] lg:h-[571px]">
           <Image
             className="dark:invert rounded-3xl border border-2 border-dark-grey"
-            src="/Create_Custom_Pin.png"
+            src="/DragPin.png"
             alt="create custom pin mockup"
             width={585}
             height={1077}
@@ -146,8 +159,8 @@ function StaggeredView() {
         </div>
 
         <div className="w-[400px] flex flex-col gap-2">
-          <h2 className="text-white text-2xl font-semibold">Create Custom Pins</h2>
-          <p className="text-light-grey max-w-xs">Feeling adventurous? Use a drag and drop pin to add your own locations on the map.</p>
+          <h2 className="text-white text-2xl font-semibold">Set routes or roam freely</h2>
+          <p className="text-light-grey max-w-xs">Enter a search term or landmark to generate a list of suggested landmarks. If you're feeling adventurous, just tap quick start.</p>
         </div>
 
       </div>
@@ -156,7 +169,7 @@ function StaggeredView() {
         <div className="w-[243px] h-[531px] lg:w-[283px] lg:h-[571px]">
           <Image
             className="dark:invert rounded-3xl border border-2 border-dark-grey"
-            src="/Run_History.png"
+            src="/RunHistory.png"
             alt="run history mockup"
             width={585}
             height={1077}
@@ -170,7 +183,32 @@ function StaggeredView() {
 
       </div>
 
+
+      <div className="flex flex-col lg:flex-row justify-between items-center">
+
+
+        <div className="w-[400px] flex flex-col gap-2">
+          <h2 className="text-white text-2xl font-semibold">Interactive Charts</h2>
+          <p className="text-light-grey max-w-xs">SwiftUI Charts is integrated to provide granular insight into your run data over time.</p>
+        </div>
+
+        <div className="w-[243px] h-[531px] lg:w-[283px] lg:h-[571px]">
+          <Image
+            className="dark:invert rounded-3xl border border-2 border-dark-grey"
+            src="/StepsCharts.png"
+            alt="run history mockup"
+            width={585}
+            height={1077}
+          />
+        </div>
+      </div>
+
       <div className="flex flex-col lg:flex-row-reverse justify-between items-center">
+        <div className="w-[400px] flex flex-col gap-2">
+          <h2 className="text-white text-2xl font-semibold">Manage your profile</h2>
+          <p className="text-light-grey max-w-xs">Switch things up by editing pins or updating your map themes. And don&apos;t worry, your profile data is never shared with anyone.</p>
+        </div>
+
         <div className="w-[243px] h-[531px] lg:w-[283px] lg:h-[571px]">
           <Image
             className="dark:invert rounded-3xl border border-2 border-dark-grey"
@@ -179,11 +217,6 @@ function StaggeredView() {
             width={585}
             height={1077}
           />
-        </div>
-
-        <div className="w-[400px] flex flex-col gap-2">
-          <h2 className="text-white text-2xl font-semibold">Manage your profile</h2>
-          <p className="text-light-grey max-w-xs">Switch things up by editing pins or updating your map themes. And don&apos;t worry, your profile data is never shared with anyone.</p>
         </div>
 
       </div>
@@ -204,7 +237,7 @@ function CarouselView() {
               <div className="w-[243px] h-[531px] mx-auto">
                 <Image
                   className="dark:invert rounded-3xl border border-2 border-dark-grey"
-                  src="/Add_Run.png"
+                  src="/AddRun.png"
                   alt="add run mockup"
                   width={585}
                   height={1077}
@@ -226,7 +259,7 @@ function CarouselView() {
               <div className="w-[243px] h-[531px] mx-auto">
                 <Image
                   className="dark:invert rounded-3xl border border-2 border-dark-grey"
-                  src="/Create_Custom_Pin.png"
+                  src="/DragPin.png"
                   alt="add run mockup"
                   width={585}
                   height={1077}
@@ -248,7 +281,7 @@ function CarouselView() {
               <div className="w-[243px] h-[531px] mx-auto">
                 <Image
                   className="dark:invert rounded-3xl border border-2 border-dark-grey"
-                  src="/Run_History.png"
+                  src="/RunHistory.png"
                   alt="add run mockup"
                   width={585}
                   height={1077}
@@ -263,8 +296,28 @@ function CarouselView() {
           </CarouselItem>
 
 
+        {/* StepsCharts Preview */}
+        <CarouselItem key={4}>
+            <div className="flex flex-col justify-center">
+              <div className="w-[243px] h-[531px] mx-auto">
+                <Image
+                  className="dark:invert rounded-3xl border border-2 border-dark-grey"
+                  src="/StepsCharts.png"
+                  alt="steps charts mockup"
+                  width={585}
+                  height={1077}
+                />
+              </div>
+            </div>
+
+            <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
+              <h2 className="text-white text-2xl font-semibold">Interactive Charts</h2>
+              <p className="text-light-grey max-w-sm">SwiftUI Charts is integrated to provide granular insight into your run data over time.</p>
+            </div>
+          </CarouselItem>
+
           {/* Profile Preview */}
-          <CarouselItem key={3}>
+          <CarouselItem key={5}>
             <div className="flex flex-col justify-center">
               <div className="w-[243px] h-[531px] mx-auto">
                 <Image
@@ -282,6 +335,7 @@ function CarouselView() {
               <p className="text-light-grey max-w-sm">Switch things up by editing pins or updating your map themes. And don&apos;t worry, your profile data is never shared with anyone.</p>
             </div>
           </CarouselItem>
+
         </CarouselContent>
 
 
