@@ -159,7 +159,7 @@ function StaggeredView() {
 
         <div className="w-[400px] flex flex-col gap-2">
           <h2 className="text-white text-2xl font-semibold">Set routes or roam freely</h2>
-          <p className="text-light-grey max-w-xs">Enter a search term or landmark to generate a list of suggested landmarks. If you're feeling adventurous, just tap quick start.</p>
+          <p className="text-light-grey max-w-xs">Enter a search term or landmark to generate a list of suggested landmarks. If you&apos;re feeling adventurous, just tap quick start.</p>
         </div>
 
       </div>
@@ -267,8 +267,8 @@ function CarouselView() {
               </div>
 
               <div className="max-w-sm flex flex-col gap-2 text-center mx-auto">
-                <h2 className="text-white text-2xl font-semibold">Create Custom Pins</h2>
-                <p className="text-light-grey max-w-xs">Feeling adventurous? Use a drag and drop pin to add your own locations on the map.</p>
+                <h2 className="text-white text-2xl font-semibold">Set routes or roam freely</h2>
+                <p className="text-light-grey max-w-xs">Enter a search term or landmark to generate a list of suggested landmarks. If you&apos;re feeling adventurous, just tap quick start.</p>
               </div>
             </div>
           </CarouselItem>
